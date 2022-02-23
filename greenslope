@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Green Slope</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="stylesheet" href="css/tailwind/vector.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/AwPAd0HA.png">
+    <script src="js/main.js"></script>
+</head>
+
+<body class="px-1 antialiased bg-body text-body font-body">
+    <section class="fixed inset-x-0 top-0 z-10 py-2 bg-gray-200 bg-opacity-75">
+        <nav class="flex">
+            <div class="flex items-center w-full px-12 ">
+                <a class="text-3xl font-bold lg:mr-8 2xl:mr-20 font-heading" href="#">
+                    <img class="h-24" src="../img/LOGO_GREEN copia.svg" alt="" width="auto">
+                </a>
+            </div>
+            <ul class="hidden mt-10 font-semibold mr-14 xl:flex font-heading">
+                <li class="mr-12"><a class="hover:text-gray-600" href="#seccion-1">EQUIPO</a></li>
+                <li class="mr-12"><a class="hover:text-gray-600" href="#seccion-2">CLIENTES</a></li>
+                <li class="mr-12"><a class="hover:text-gray-600" href="#seccion-3">SERVICIOS</a></li>
+                <li><a class="hover:text-gray-600" href="#seccion-4">CONTACTO</a></li>
+            </ul>
+            <div class="items-center hidden xl:flex">
+                <a class="mr-10 hover:text-gray-600" href="#">
+                </a>
+            </div>
+            <a class="self-center mr-12 navbar-burger xl:hidden" href="#">
+                <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1 2H19C19.2652 2 19.5196 1.89464 19.7071 1.70711C19.8946 1.51957 20 1.26522 20 1C20 0.734784 19.8946 0.48043 19.7071 0.292893C19.5196 0.105357 19.2652 0 19 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2ZM19 10H1C0.734784 10 0.48043 10.1054 0.292893 10.2929C0.105357 10.4804 0 10.7348 0 11C0 11.2652 0.105357 11.5196 0.292893 11.7071C0.48043 11.8946 0.734784 12 1 12H19C19.2652 12 19.5196 11.8946 19.7071 11.7071C19.8946 11.5196 20 11.2652 20 11C20 10.7348 19.8946 10.4804 19.7071 10.2929C19.5196 10.1054 19.2652 10 19 10ZM19 5H1C0.734784 5 0.48043 5.10536 0.292893 5.29289C0.105357 5.48043 0 5.73478 0 6C0 6.26522 0.105357 6.51957 0.292893 6.70711C0.48043 6.89464 0.734784 7 1 7H19C19.2652 7 19.5196 6.89464 19.7071 6.70711C19.8946 6.51957 20 6.26522 20 6C20 5.73478 19.8946 5.48043 19.7071 5.29289C19.5196 5.10536 19.2652 5 19 5Z"
+            fill="#8594A5"></path>
+        </svg>
+            </a>
+
+            <div class="fixed top-0 bottom-0 left-0 z-50 hidden w-5/6 max-w-sm navbar-menu">
+                <div class="fixed inset-0 bg-gray-800 opacity-25 navbar-backdrop"></div>
+                <nav class="relative flex flex-col w-full h-full px-6 py-6 overflow-y-auto bg-body border-">
+                    <div class="flex items-center mb-8">
+                        <a class="mr-auto text-3xl font-bold font-heading" href="#">
+                            <img class="h-9" src="../img/LOGO_GREEN copia.svg" alt="" width="auto">
+                        </a>
+                        <button class="navbar-close">
+              <svg class="w-2 h-2 text-gray-500 cursor-pointer" width="10" height="10" viewBox="0 0 10 10" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00002 1L1 9.00002M1.00003 1L9.00005 9.00002" stroke="black" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+                    </div>
+                    <ul class="text-3xl font-bold font-heading">
+                        <li class="mb-12 mr-12"><a class="hover:text-gray-600" href="#seccion-1">EQUIPO</a></li>
+                        <li class="mb-12 mr-12"><a class="hover:text-gray-600" href="#seccion-2">CLIENTES</a></li>
+                        <li class="mb-12 mr-12"><a class="hover:text-gray-600" href="#seccion-3">SERVICIOS</a></li>
+                        <li><a class="hover:text-gray-600" href="#seccion-4">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </section>
+
+    <section>
+        <div class="relative py-12 radius-for-skewed" style="background-image: url('../img/programadores.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="container relative mx-auto">
+                <div class="max-w-md pt-16 mx-auto lg:pt-28 lg:pb-40">
+                    <h2 class="mt-6 mb-8 text-5xl font-bold text-center text-white lg:text-6xl font-heading">
+                        Construye tu pagina web con nosotros</h2>
+                    <p class="mb-20 text-2xl font-semibold text-center text-white">"Creamos la mejor pagina web a su medida"</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <a name="seccion-1" />
+    <div class="mt-10 ">
+        <h2 class="py-3 pl-4 mb-12 text-3xl font-semibold text-center rounded-lg text-body bg-gradient-to-r from-gray-200 lg:text-5xl font-heading">
+            EQUIPO</h2>
+        <div class="relative overflow-hidden lg:py-40">
+            <div class="container px-4 mx-auto">
+                <div class="flex flex-wrap -">
+                    <div class="flex items-center w-full px-4 lg:w-1/2">
+                        <div class="w-full text-center lg:text-left">
+                            <div class="relative max-w-sm mx-auto lg:mx-0">
+                                <p class="text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt autem velit in impedit commodi illo saepe doloribus quam nobis? Numquam esse maxime cupiditate molestias odit aliquid sapiente totam corrupti laboriosam.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto est dolorem unde quasi, a aspernatur amet atque praesentium quibusdam animi aliquam fugiat quaerat, aperiam, laboriosam vitae eos inventore consectetur.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2">
+                        <img class="top-0 object-cover w-full h-full pt-6 lg:absolute lg:my-0 lg:w-1/2 rounded-3xl lg:rounded-none" src="../img/img_20210306_122020-1615085581.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+        <a name="seccion-2" />
+        <section class="">
+            <div class="mt-10">
+                <h2 class="py-3 pl-4 text-3xl font-semibold text-center rounded-lg text-body bg-gradient-to-r from-gray-200 lg:text-5xl font-heading">
+                    CLIENTES</h2>
+                <div class="flex flex-wrap justify-between px-12">
+                    <p class="mt-10 mb-20 text-xl font-bold text-justify text-gray-700 ">Clientes que han confiado en Green Slope como partner tecnológico para la automatización de procesos, la agilidad y la seguridad, acelerando de ese modo la transformación de sus organizaciones y optimizando la experiencia digital.</p>
+                    <div class="w-full px-4 mb-8 transition duration-500 transform hover:scale-125 sm:w-1/2 md:w-1/3 lg:w-1/6 lg:mb-0">
+                        <div class="px-2 py-12 rounded-md shadow-2xl">
+                            <img class="h-20 mx-auto" src="../img/fga.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-full px-4 mb-6 transition duration-500 transform hover:scale-125 sm:w-1/2 md:w-1/3 lg:w-1/6 lg:mb-0">
+                        <div class="px-2 py-12 rounded-md shadow-2xl">
+                            <img class="h-20 mx-auto" src="../img/d1BryJ5Q.png" alt="">
+                        </div>
+                        <div class="pt-12 text-center px-14 pb-14">
+                        </div>
+                    </div>
+                    <div class="w-full px-4 mb-6 transition duration-500 transform hover:scale-125 sm:w-1/2 md:w-1/3 lg:w-1/6 lg:mb-0">
+                        <div class="px-2 py-12 rounded-md shadow-2xl">
+                            <img class="h-20 mx-auto" src="../img/isologo_loyola_principal.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="w-full px-4 mb-6 transition duration-500 transform hover:scale-125 sm:w-1/2 md:w-1/3 lg:w-1/6 md:mb-0">
+                        <div class="px-2 py-12 rounded-md shadow-2xl">
+                            <img class="h-20 mx-auto" src="../img/logomapa.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <a name="seccion-3" />
+    <section class="">
+        <div class="mx-auto text-center ">
+            <h2 class="py-3 pl-4 mb-12 text-3xl font-semibold rounded-lg text-body bg-gradient-to-r from-gray-200 lg:text-5xl font-heading">
+                SERVICIOS</h2>
+            <p class="px-12 text-xl font-bold text-justify text-gray-700 "> Nuestros servicios estan totalmente a adaptados a cada necesidad del cliente dotando de todas la herramientas necsesarias para un desarrollo 100% eficaz. Nos tomamos el tiempo necesario para comprender su organización y sus clientes, y luego
+                desarrollamos una estrategia digital capaz de ofrecer resultados notables. </p>
+            <div class="flex flex-wrap -mx-3">
+                <div class="w-full px-12 mb-12 md:w-1/2 lg:w-1/4 lg:mb-0">
+                    <div class="relative h-full pt-16 text-center">
+                        <img class="absolute top-0 z-10 hidden mt-16 ml-16 md:block left-1/2 lg:ml-8" src="yofte-assets/elements/dots.svg" alt="">
+                        <div class="pb-12 border-b">
+                            <span class="inline-flex items-center justify-center w-20 h-20 mb-16">
+                <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"><img
+                    src="../img/constultro.png"></svg></span>
+                            <h3 class="mb-4 text-xl font-bold font-heading">Consultoría Informática</h3>
+                            <p>100% Servicio Profesional</p>
+                        </div>
+                        <div class="pt-12 text-center px-14 pb-14">
+                            <p class="text-lg text-gray-500">Nuestros profesionales ponen nuestra alta experiencia al servicio del Cliente para asistirle con las mejores opciones a implantar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/4 lg:mb-0">
+                    <div class="relative h-full pt-16 text-center">
+                        <img class="absolute top-0 z-10 hidden mt-16 ml-16 lg:block left-1/2 lg:ml-8" src="yofte-assets/elements/dots.svg" alt="">
+                        <div class="pb-12 border-b">
+                            <span class="inline-flex items-center justify-center w-20 h-20 mb-16">
+                <svg width="20" height="42" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg "><img
+                    src="../img/app.png"></svg></span>
+                            <h3 class="mb-4 text-xl font-bold font-heading">Desarrollo de App</h3>
+                            <p>100% Funcional</p>
+                        </div>
+                        <div class="pt-12 text-center px-14 pb-14">
+                            <p class="text-lg text-gray-500">Desarrollamos aplicaciones móviles a medida para empresas como apps nativas y apps web progresivas para iOS, Android y wearables.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/4 md:mb-0">
+                    <div class="relative h-full pt-16 text-center">
+                        <img class="absolute top-0 z-10 hidden mt-16 ml-16 md:block left-1/2 lg:ml-8" src="yofte-assets/elements/dots.svg" alt="">
+                        <div class="pb-12 border-b">
+                            <span class="inline-flex items-center justify-center w-20 h-20 mb-16">
+                <svg width="31" height="37" viewBox="0 0 31 37" fill="none" xmlns="http://www.w3.org/2000/svg"><img
+                    src="../img/diseñogr.png"></svg></span>
+                            <h3 class="mb-4 text-xl font-bold font-heading">Diseño Gráfico</h3>
+                            <p>100% Visual</p>
+                        </div>
+                        <div class="pt-12 text-center px-14 pb-14">
+                            <p class="text-lg text-gray-500">Escuchamos a nuestros clientes y llevamos a cabo el diseño hasta dejarlo al gusto del cliente y listo con todas las garantías de calidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-3 md:w-1/2 lg:w-1/4">
+                    <div class="relative h-full pt-16 text-center">
+                        <div class="pb-12 border-b">
+                            <span class="inline-flex items-center justify-center w-20 h-20 mb-16">
+                <svg width="35" height="37" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg"><img
+                    src="../img/soporte.png"></path></svg></span>
+                            <h3 class="mb-4 text-xl font-bold font-heading">Soporte Técnico</h3>
+                            <p>Soporte telefónico</p>
+                        </div>
+                        <div class="pt-12 text-center px-14 pb-14">
+                            <p class="text-lg text-gray-500"> Garantizamos una atención personalizada a cada uno de nuestros clientes para optimizar y mejorar el rendimiento de tus productos o servicios tecnológicos. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="seccion-4" />
+    <div class="">
+        <h2 class="py-3 pl-4 mb-12 text-3xl font-semibold text-center rounded-lg text-body bg-gradient-to-r from-gray-200 lg:text-5xl font-heading">
+            CONTACTO</h2>
+        <div class="relative flex flex-col-reverse h-1/2 md:block">
+            <div id="map" width="600" height="450"></div>
+            <!-- <iframe id="iframe" class="right-0 w-full md:absolute md:h-full"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.478403669424!2d-5.985239784355636!3d37.37851704263066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e9e2b082323%3A0xc092338d9a961036!2sPl.%20Aviador%20Ruiz%20de%20Alda%2C%2011%2C%2041004%20Sevilla!5e0!3m2!1ses!2ses!4v1634809342464!5m2!1ses!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+            <div class="">
+                <div class="container relative z-30 py-4 xl:w-1/3 md:w-1/2 bg-gradient-to-r from-white via-white to-transparent md:pl-6 sm:py-10 lg:py-40">
+                    <div class="lg:w-96">
+                        <h3 class="text-2xl font-bold leading-10 text-gray-800 sm:text-4xl lg:text-5xl">HABLEMOS</h3>
+                        <p class="mt-4 text-base leading-normal text-gray-500 lg:mt-2">Estamos aquí para responder cualquier pregunta.
+                            <br />Nuestro horario es de Lunes a Viernes de 8.00h a 20.00h. </p>
+                    </div>
+                    <div class="mt-8 lg:mt-16">
+                        <h2 class="text-xl font-semibold leading-normal text-gray-800 lg:w-64 lg:text-2xl">Dirección</h2>
+                        <p class="mt-2 text-base leading-normal text-gray-500 sm:w-1/2">Pl. Aviador Ruiz de Alda, 11</p>
+                    </div>
+                    <div class="mt-8 lg:mt-12">
+                        <h2 class="text-xl font-semibold leading-normal text-gray-800 lg:w-64 lg:text-2xl">Teléfono</h2>
+                        <p class="mt-2 text-base leading-normal text-gray-500">954 369 320</p>
+                    </div>
+                    <div class="mt-8 lg:mt-12">
+                        <h2 class="text-xl font-semibold leading-normal text-gray-800 lg:w-64 lg:text-2xl">Email</h2>
+                        <p class="mt-2 text-base leading-normal text-gray-500">gest.slope@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-20 ">
+        <div class="container px-4 mx-auto">
+            <div class="pb-20 text-center border-b">
+                <a class="inline-block mb-20 text-3xl font-bold font-heading" href="#">
+                    <img class="h-20" src="../img/LOGO_GREEN copia.svg" alt="" width="auto">
+                </a>
+                <ul class="flex flex-wrap items-center justify-center -mx-3 -mb-4">
+                    <li class="w-1/2 px-3 mb-4 md:w-1/3 lg:w-auto"><a class="inline-block w-32 px-6 py-2 font-semibold transition duration-300 bg-white rounded-full hover:text-white hover:bg-gray-600 font-heading" href="#seccion-1">Equipo</a></li>
+                    <li class="w-1/2 px-3 mb-4 md:w-1/3 lg:w-auto"><a class="inline-block w-32 px-6 py-2 font-semibold transition duration-300 bg-white rounded-full hover:text-white hover:bg-gray-600 font-heading" href="#seccion-2">Clientes</a></li>
+                    <li class="w-1/2 px-3 mb-4 md:w-1/3 lg:w-auto"><a class="inline-block w-32 px-6 py-2 font-semibold transition duration-300 bg-white rounded-full hover:text-white hover:bg-gray-600 font-heading" href="#seccion-3">Servicios</a></li>
+                    <li class="w-1/2 px-3 mb-4 md:w-1/3 lg:w-auto"><a class="inline-block w-32 px-6 py-2 font-semibold transition duration-300 bg-white rounded-full hover:text-white hover:bg-gray-600 font-heading" href="#seccion-4">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-8 text-center">
+                <p class="text-gray-500">© Copyright 2021 Green Slope</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cambiar la key por la nuestra que esta es de dev3  -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPKa2eyh-arLV9YwzYXOVkKk1qtpD4I2g"></script>
+    <script>
+        var map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: new google.maps.LatLng(37.318454202156474, -4.723963592735405),
+                zoom: 7,
+                mapTypeControl: false,
+                zoomControl: true,
+                scrollwheel: false,
+                mapTypeControlOptions: {
+                    style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP]
+                }
+            });
+
+            // var imagen_marker = '../img/airport.svg';
+            var marker = new google.maps.Marker({
+                position: {
+                    lat: 37.378608,
+                    lng: -5.983328
+                },
+                map: map,
+                title: "Green Slope S.L.",
+                animation: google.maps.Animation.DROP,
+                //   icon: imagen_marker,
+            });
+        }
+
+        initMap();
+    </script>
+
+</body>
+
+</html>
